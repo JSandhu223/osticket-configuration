@@ -28,7 +28,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configuring **Roles**, **Departments**, and **Teams**
 - Configuring ticket creation rules and permissions
 - Creating agents and users
-- Configuring a Servive Level Agreement (SLA)
+- Configuring a **Service Level Agreement (SLA)**
 - Creating **Help Topics**
 
 <h2>Configuration Steps</h2>

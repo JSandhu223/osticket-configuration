@@ -69,7 +69,7 @@ Click `Add Role`. We should now see this new role on the `Roles` page.
 
 <img src="images/CreateRole_7.png" />
 
-<h3>Part 3 - Configure Department</h3>
+<h3>Part 3 - Configuring Department</h3>
 
 To create a new department, navigate to `Agents -> Departments -> Add New Department`.
 
@@ -83,7 +83,7 @@ We will add agents to this department later. For the time being, click `Create D
 
 <img src="images/CreateDepartment_3.png" />
 
-<h3>Part 4 - Configure Team</h3>
+<h3>Part 4 - Configuring Team</h3>
 
 A team allows us to manage agents from different departments. To create a team, navigate to `Agents -> Teams -> Add New Team`.
 
@@ -97,6 +97,10 @@ Again, we will add members to this team later. For now, create the team as is. W
 
 <img src="images/CreateTeam_3.png" />
 
-<h3>Configuring Ticket Creation</h3>
+<h3>Part 5 - Configuring Ticket Creation</h3>
 
-In our help desk, anyone should be able to submit a ticket, whether they be a user, guest, agent, or admin.
+In our help desk system, anyone should be able to submit a ticket regardless of if they have registered an account with our service. We can configure ticket creation permissions by navigating to `Settings -> Users`.
+
+<img src="images/ConfigureTicketPermissions_1.png" />
+
+As we want to allow anyone to submit tickets, we will not force users to create an account. Furthermore, anyone should be able to register for an account if they so choose. With these rules in place, we can save these changes.

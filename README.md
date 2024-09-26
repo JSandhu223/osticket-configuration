@@ -43,7 +43,7 @@ In the last tutorial, we installed the prequisites needed to run  osTicket. We i
 
 We can now begin the post-installation configuration.
 
-<h3>Part 2 - Configuring Roles</h3>
+<h3>Part 2 - Configuring Role</h3>
 
 To create a role, navigate to `Agents -> Roles -> Add New Role`.
 
@@ -69,4 +69,20 @@ Click `Add Role`. We should now see this new role on the `Roles` page.
 
 <img src="images/CreateRole_7.png" />
 
-<h3>Part 3 - Configure Departments</h3>
+<h3>Part 3 - Configure Department</h3>
+
+To create a new department, navigate to `Agents -> Departments -> Add New Department`.
+
+<img src="images/CreateDepartment_1.png" />
+
+We will call this department `System Administrators`. Leave all other settings as they are.
+
+<img src="images/CreateDepartment_2.png" />
+
+We will add agents to this department later. For the time being, click `Create Dept`. We should now see the department in the list of all departments.
+
+<img src="images/CreateDepartment_3.png" />
+
+<h3>Part 4 - Configure Team</h3>
+
+A team allows us to manage agents from different departments. To create a team, navigate to `Agents -> Teams -> Add New Team`.

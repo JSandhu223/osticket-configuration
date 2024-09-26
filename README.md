@@ -86,3 +86,17 @@ We will add agents to this department later. For the time being, click `Create D
 <h3>Part 4 - Configure Team</h3>
 
 A team allows us to manage agents from different departments. To create a team, navigate to `Agents -> Teams -> Add New Team`.
+
+<img src="images/CreateTeam_1.png" />
+
+In a real help desk environment, their will be different ticket escalation levels. As there is already a team for `Level I Support`, let's create a team for `Level II Support`.
+
+<img src="images/CreateTeam_2.png" />
+
+Again, we will add members to this team later. For now, create the team as is. We should now see the team in the list of all teams.
+
+<img src="images/CreateTeam_3.png" />
+
+<h3>Configuring Ticket Creation</h3>
+
+In our help desk, anyone should be able to submit a ticket, whether they be a user, guest, agent, or admin.

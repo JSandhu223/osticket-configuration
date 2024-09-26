@@ -44,3 +44,29 @@ In the last tutorial, we installed the prequisites needed to run  osTicket. We i
 We can now begin the post-installation configuration.
 
 <h3>Part 2 - Configuring Roles</h3>
+
+To create a role, navigate to `Agents -> Roles -> Add New Role`.
+
+<img src="images/CreateRole_1.png" />
+
+We will give this role the name `Supreme Admin`.
+
+<img src="images/CreateRole_2.png" />
+
+To assign permissions for this role, go to the permissions tab.
+
+<img src="images/CreateRole_3.png" />
+
+As the name of this role implies, any user with this role should be given the most permissions. Go ahead and tick all the options in each of the sub tabs.
+
+<img src="images/CreateRole_4.png" />
+
+<img src="images/CreateRole_5.png" />
+
+<img src="images/CreateRole_6.png" />
+
+Click `Add Role`. We should now see this new role on the `Roles` page.
+
+<img src="images/CreateRole_7.png" />
+
+<h3>Part 3 - Configure Departments</h3>

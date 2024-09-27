@@ -104,3 +104,99 @@ In our help desk system, anyone should be able to submit a ticket regardless of 
 <img src="images/ConfigureTicketPermissions_1.png" />
 
 As we want to allow anyone to submit tickets, we will not force users to create an account. Furthermore, anyone should be able to register for an account if they so choose. With these rules in place, we can save these changes.
+
+<h3>Part 6 - Creating Agents</h3>
+
+To create an agent, navigate to `Agents -> Add New Agent`
+
+<img src="images/CreateAgent.png" />
+
+We will create two agents, Jane Doe and John Doe. First, let's create Jane, who has been with the company for a long time.
+
+```
+Name: Jane Doe
+Email: jane.doe@jayhelpdesk.com
+Username: jane.doe
+Password: Password1
+Department: System Administators
+Role: Supreme Admin
+Team: Level II Support
+```
+
+Next, we'll create one for John, who is a new hire.
+
+```
+Name: John Doe
+Email: john.doe@jayhelpdesk.com
+Username: john.doe
+Password: Password1
+Department: Support
+Role: View Only
+Team: Level I Support
+```
+
+When setting the password, make sure to disable password reset upon first login! Also, if you are getting an error indicating the email address is not valid, you will need to navigate to `Emails -> Settings` and uncheck the following option.
+
+<img src="images/DisableEmailVerification.png" />
+
+After creation, we should now see these agents in the list of all agents.
+
+<img src="images/AgentsCreated.png" />
+
+<h3>Part 7 - Creating Users</h3>
+
+Although users would typically sign up through the portal, we can also manually create users. These may be users that have contacted our IT team by email or phone rather than through our ticketing system directly. To create a user, go the the `Agent Panel` and navigate to `Users -> Add User`.
+
+<img src="images/CreateUser.png" />
+
+From here we will create two users, Ken and Karen.
+
+<img src="images/CreateUser_Ken.png"   height="40%" width="40%" />
+<img src="images/CreateUser_Karen.png" height="40%" width="40%" />
+
+After creation, we should now see these users in the list of all users.
+
+<img src="images/User_Directory.png" />
+
+Notice that if we go to any of these users, we have an option to register them for an account.
+
+<img src="images/User_Karen.png" />
+
+We can choose to send them an email link to register from, or set their account up for them with a temporary password.
+
+<h3>Part 8 - Configuring SLA</h3>
+
+An SLA (Service-Level Agreement) is a commitment between a service provider and a client. Particular aspects of the service – quality, availability, responsibilities – are agreed between the service provider and the service user. Depending on the organization, they might have an SLA in place such that certain tickets must be responded to and/or resolved within a certain time period. With this in mind we can create three different SLA plans:
+
+- **Sev-A** (1 hour, 24/7)
+- **Sev-B** (4 hours, 24/7)
+- **Sev-C** (8 hours, business hours)
+
+To create these, go to the `Admin Panel` and navigate to `Manage -> SLA -> Add New SLA Plan`.
+
+<img src="images/CreateSLA.png" />
+
+Once created, we should see these SLA Plans in the list of all plans.
+
+<img src="images/SLA_Plans_Created.png" />
+
+Now when an agent sees an open ticket, they can assign it a severity level as according to the SLA policy.
+
+<h3>Part 9 - Creating Help Topics</h3>
+
+Help topics allow agents to broadly categorize tickets for better organization and management. To create a help topic, navigate to `Manage -> Help Topics -> Add New Help Topic`.
+
+<img src="images/CreateHelpTopic.png" />
+
+We will create the following help topics:
+
+- Business Critical Outage
+- Personal Computer Issues
+- Password Reset
+- Equipment Request
+
+We can choose to put these topics under parent topics to better organize. For example, the first three topics can be under the `Report a Problem` topic and the last topic can be under the `General Inquiry` topic.
+
+<img src="images/HelpTopicsCreated.png" />
+
+Congratulations! We have now completed the post-installation configuration of osTicket and can now begin using our ticketing system.
